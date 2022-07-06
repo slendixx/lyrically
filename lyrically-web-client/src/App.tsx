@@ -5,9 +5,8 @@ import Login from "src/components/login/Login";
 import Logout from "src/components/logout/Logout";
 import { gapi } from "gapi-script";
 
-const CLIENT_ID =
-  "141949774599-dse5jl58i12coo5p8l7gtf0lp1hbkvbj.apps.googleusercontent.com";
-const API_KEY = "AIzaSyCEIsoXXmHl2CXOtOW68eZIEIPhZFrp8aI";
+const CLIENT_ID = ""; //get these from google cloud project dashboard
+const API_KEY = "";
 const SCOPES = "https://www.googleapis.com/auth/drive";
 
 function App() {
